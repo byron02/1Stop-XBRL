@@ -1,0 +1,32 @@
+
+
+Mon Sep 30 09:15:00 2019
+Command line: TestDisk
+
+TestDisk 7.0, Data Recovery Utility, April 2015
+Christophe GRENIER <grenier@cgsecurity.org>
+http://www.cgsecurity.org
+OS: Linux, kernel 4.18.0-1008-gcp (#9-Ubuntu SMP Fri Mar 15 10:42:32 UTC 2019) x86_64
+Compiler: GCC 7.3
+ext2fs lib: 1.44.4, ntfs lib: libntfs-3g, reiserfs lib: none, ewf lib: none, curses lib: ncurses 6.1
+Warning: can't get size for Disk /dev/mapper/control - 0 B - 0 sectors, sector size=512
+Hard disk list
+Disk /dev/sda - 10 GB / 10 GiB - CHS 10240 64 32, sector size=512 - Google PersistentDisk
+
+Partition table type (auto): EFI GPT
+Disk /dev/sda - 10 GB / 10 GiB - Google PersistentDisk
+Partition table type: EFI GPT
+
+Interface Advanced
+hdr_size=92
+hdr_lba_self=1
+hdr_lba_alt=20971519 (expected 20971519)
+hdr_lba_start=34
+hdr_lba_end=20971486
+hdr_lba_table=2
+hdr_entries=128
+hdr_entsz=128
+14 P Unknown                     2048      10239       8192
+15 P EFI System                 10240     227327     217088
+ 1 P Unknown                   227328   20971486   20744159
+SIGHUP detected! TestDisk has been killed.
